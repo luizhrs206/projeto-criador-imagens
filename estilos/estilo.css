@@ -1,0 +1,19 @@
+body{background-color: peachpuff; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+.header{font-size: 30px;font-weight: 900; text-align: center;}
+.th{padding: 0px 0px 0px 20px; border: solid black 4px; }
+.a{ text-decoration-line: none; color: darkorange;}
+#name{margin: 0px 0px 0px 55px}
+#email{margin: 0px 0px 0px 50px;}
+#text{ margin: 0px 0px 0px 17px;}
+.tabela{border-collapse: collapse ;}
+#th1{background-color: brown ;}
+#th2{ background-color: brown;padding: 5px; }
+.func{border: solid black 4px}
+
+#tabelag{margin: 0px 0px 0px 321px; border-collapse: collapse;}
+.thg{background-color: brown; border: solid black 3px;}
+.td{ border: solid black 3px;}
+
+
+
