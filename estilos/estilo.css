@@ -1,19 +1,128 @@
-body{background-color: peachpuff; 
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
-.header{font-size: 30px;font-weight: 900; text-align: center;}
-.th{padding: 0px 0px 0px 20px; border: solid black 4px; }
-.a{ text-decoration-line: none; color: darkorange;}
-#name{margin: 0px 0px 0px 55px}
-#email{margin: 0px 0px 0px 50px;}
-#text{ margin: 0px 0px 0px 17px;}
-.tabela{border-collapse: collapse ;}
-#th1{background-color: brown ;}
-#th2{ background-color: brown;padding: 5px; }
-.func{border: solid black 4px}
+body{background-color: #222831; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color:#EEEEEE}
+    .header{font-size: 30px  ;
+        font-weight: 900;
+        text-align: center;}
+    .a{ 
+        text-decoration-line: none;
+        color: #EEEEEE;;
+    }
+    
+.butin{background-color: #00ADB5;
+border-radius: 10px;
+border-color: #00ADB5;}
+.tabela{
+    border-collapse: collapse ;
+}
+#th1{
+    background-color:#00ADB5 ;
+}
+#th2{
+    background-color:#00ADB5;padding: 5px;
+}
+.func{
+    border: solid black 4px;
+    background-color: #393E46;
+}
+.th{
+    padding: 0px 0px 0px 20px;
+    border: solid black 4px;
+    background-color: #393E46;
+}
+.divindex{display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+margin: 50px 0px 0px 0px;
+}
+.imgindex{border-radius: 10px;}
 
-#tabelag{margin: 0px 0px 0px 321px; border-collapse: collapse;}
-.thg{background-color: brown; border: solid black 3px;}
-.td{ border: solid black 3px;}
+/* gerar*/
+.ligg{margin: 0px 300px 0px 300px;}
+.divgg{text-align: center;
+background-color: #393E46;
+border-radius: 10px;
+margin: 0px 200px 0px 200px;
+display: block;
+color: #EEEEEE;
+}
+.imggg{
+    border-radius: 10px;
+}
+.butgg{border-radius: 10px;
+background-color: #00ADB5;
+border-color: #00ADB5;
+color: aliceblue;
+padding: 10PX 20PX 10PX 20PX;
+}
+#volt{
+    text-decoration: none;
+    display: inline-block;
+    padding: 0px 0px 0px 0px;
+    color:#EEEEEE
+}
+.voltgg{
+    border-radius: 10px;
+    border-color: #00ADB5 ;
+    background-color: #00ADB5;
+    margin: 30px 0px 0px 1400px;
+    padding: 10px 20px 10px 20px;
+}
+#text{
+    margin: 0px 0px 0px 17px;
+}
+.escrever{
+    border-radius: 10px;
+    border-color: #00ADB5;
+}
+/* sobre*/
+
+
+/* contato*/
+.divgeral{display: flex;
+background-color:#393E46;
+flex-direction: column;
+align-items: center;
+flex-wrap: wrap;
+margin: 100px 300px 0px 300px;
+border-radius: 15px;}
+.divname{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.divemail{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.divmensagem{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.enviarcontato{display: flex;
+    margin: 0px 0px 50px 120px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 8px;
+    background-color: #00ADB5;
+    border-color: #00ADB5;
+}
+.inputgeral{border-radius: 10px;
+border-color: #00ADB5;}
+/*galeria*/
+#tabelag{
+    margin: 0px 0px 0px 321px; border-collapse: collapse;
+}
+.thg{
+background-color:#00ADB5; border: solid black 3px;
+}
+.td{
+    background-color: #393E46;
+border: solid black 3px;  
+}
 
 
 

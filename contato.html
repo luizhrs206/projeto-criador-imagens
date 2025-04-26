@@ -7,19 +7,32 @@
     <link rel="stylesheet" href="estilos/estilo.css">
 </head>
 <body>
+    
     <header class="header">Entre em contato</header>
-    <p>Informe o problema para que possamos resolver</p>
-    <form action="#">
-        <label for="name">Nome:</label>
-        <input  type="text" name="name" id="name">
-        <br><br>
-        <label for="email">E-mail:</label>
-        <input  type="email" name="email" id="email">
-        <br><br>
-        <label for="text">Mensagem:</label>
-        <input  type="text" name="text" id="text">
-        <br><br>
-        <button type="submit">Enviar</button>
-    </form>
+    <ul>
+        <li>Email:contia@gmail.com</li>
+        <li>Telefone:(81) 98533.1124</li>
+    </ul>
+    <div class="divgeral">
+        <p>Informe o problema para que possamos resolver</p>
+        <form action="#">
+            <div class="divname">
+                <label  for="name">Nome:</label>
+                <input  class="inputgeral" type="text" name="name" id="name">
+            </div>
+            <br><br>
+            <div class="divemail">
+                <label for="email">E-mail:</label>
+                <input class="inputgeral" type="email" name="email" id="email">
+            </div>
+            <br><br>
+            <div class="divmensagem">
+                <label for="text">Mensagem:</label>
+                <input  class="inputgeral" type="text" name="text" id="text">
+            </div>
+            <br><br>
+            <button class="enviarcontato" type="submit">Enviar</button>
+        </form>
+    </div>
 </body>
 </html>
